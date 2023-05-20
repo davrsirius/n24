@@ -179,3 +179,44 @@ body {
   line-height: 19px;
   color: #fff;
 }
+
+
+/* MAIN SECTION */
+
+/* main section header */
+
+.main {
+  padding-top: 30px;
+}
+
+.main-section-header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d1d1;
+  /* border-bottom-color: #d1d1d1; */
+  margin-bottom: 40px;
+
+}
+
+.main-section-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+}
+
+.main-section-nav-item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.main-section-nav-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.main-section-nav-link {
+  text-decoration: none;
+  color: #7F7F7F;
+}
